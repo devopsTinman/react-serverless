@@ -6,3 +6,7 @@ This is a demo project for React.js and AWS Serverless
 Git and github
 SSH
 Homebrew
+Google fonts
+css
+fontawesome
+HTML
