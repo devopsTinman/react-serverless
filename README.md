@@ -1,2 +1,2 @@
 # react-serverless
-This is a demo project for a React.js and AWS Serverless
+This is a demo project for React.js and AWS Serverless
