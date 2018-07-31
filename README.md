@@ -10,3 +10,6 @@ Google fonts
 css
 fontawesome
 HTML
+Route53
+CloudFront
+SSL
