@@ -25,7 +25,6 @@
       </div>
       </main>
       <script src="https://unpkg.com/babel-standalone">
-
       </script>
 
       <script type="text/babel" data-presets="latest">
@@ -38,7 +37,7 @@
         button.addEventListener('click', (evt) => {
             messageArea.className = "errorBox--hidden"
             constantArea.textContent = "";
-            
+
             let name = document.getElementById('name').value;
             if (name.length < 2) {
               messageArea.textContent = "You need to enter a name";
