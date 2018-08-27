@@ -42,3 +42,4 @@ render() {
 
 }
 export default ExampleWork;
+export { ExampleWorkBubble };
