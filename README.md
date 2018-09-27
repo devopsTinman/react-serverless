@@ -3,11 +3,11 @@ This is a demo project for React.js and AWS Serverless
 
 ## Technologies Used
 
-###System config
+### System config
 Homebrew <br/>
 npm
 
-###Development
+### Development
 Google fonts <br/>
 css <br/>
 fontawesome <br/>
@@ -16,7 +16,7 @@ ReactJS <br/>
 Git and github <br/>
 SSH <br/>
 
-###Testing
+### Testing
 Babel <br/>
 Webpack  <br/>
 Enzyme  <br/>
@@ -24,7 +24,7 @@ Chai  <br/>
 Mocha  <br/>
 Jest  <br/>
 
-###Deployment
+### Deployment
 Lambda <br/>
 SNS <br/>
 S3 <br/>
