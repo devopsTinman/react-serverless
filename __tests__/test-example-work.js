@@ -37,6 +37,15 @@ describe("ExampleWork Component", () => {
     expect(component.find("ExampleWorkBubble").length).toEqual(myWork.length);
   });
 
+  it("Should allow the modal to open and close", () => {
+      component.instance().openModal();
+      expect(component.instance().state.modalOpen).toBe(true);
+      component.instance().closeModal();
+      expect(component.instance().state.modalOpen).toBe(false);
+  })
+
+});
+
 describe("ExampleWorkBubble component", () => {
     let component = shallow(<ExampleWorkBubble example={myWork[1]}/>);
     let images = component.find("img");
@@ -49,4 +58,3 @@ describe("ExampleWorkBubble component", () => {
       expect(images.prop('src')).toEqual(myWork[1].image.src);
     })
   })
-});
