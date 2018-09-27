@@ -37,7 +37,7 @@ describe("ExampleWork Component", () => {
     expect(component.find("ExampleWorkBubble").length).toEqual(myWork.length);
   });
 
-  describe("ExampleWorkBubble component", () => {
+describe("ExampleWorkBubble component", () => {
     let component = shallow(<ExampleWorkBubble example={myWork[1]}/>);
     let images = component.find("img");
 

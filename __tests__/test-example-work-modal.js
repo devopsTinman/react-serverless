@@ -18,8 +18,8 @@ const myExample = {
 };
 
 describe("ExampleWorkModal component", () => {
-    let component = shallow(<ExampleWorkModal example={myExample} open={false} />);
-    let openComponent = shallow(<ExampleWorkModal example={myExample} open={true} />);
+    let component = shallow(<ExampleWorkModal example={myExample} open={false}/>);
+    let openComponent = shallow(<ExampleWorkModal example={myExample} open={true}/>);
 
     let anchors = component.find("a");
 
